@@ -1,0 +1,27 @@
+# Airflow logs
+logs/
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+
+# Environment
+.env
+*.env
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Staging data (generated at runtime)
+dags/staging/
+
+# Docker volumes
+postgres-db-volume/
